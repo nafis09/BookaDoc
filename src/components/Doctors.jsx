@@ -60,7 +60,7 @@ const Doctors = () => {
                     {doctorsList.map((doctor, index) => (
                         <div key={index} className='bg-white rounded-lg shadow-md p-6 text-center'>
                             
-                            <h3 className='text-xl text-black font-semibold'>{doctor.name}</h3>
+                            <h3 className='text-xl font-semibold text-gray-800 dark:text-white'>{doctor.name}</h3>
                             <p className='text-gray-600 mb-2'>{doctor.specialization}</p>
                             <p className='text-sm text-gray-500 mb-4'>Availability: {doctor.availability}</p>
                             <a href='#appointment'
